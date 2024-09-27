@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/yugannkt/WebHosting-Terraform-CICD-SonarQube.git'
+                git branch: 'main', url: 'https://github.com/Guhanandan/terraform-jenkins-poc.git'
             }
         }
         stage('SonarQube Analysis') {
